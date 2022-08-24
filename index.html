@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>ไกด์นำเที่ยว.คอม</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Mali:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!--การสร้างเมนู-->
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+        <div class="container">
+            <a href="index.html"class="navbar-brand">ไกด์นำเที่ยว</a>
+            <button class="navbar-toggler" data-bs-toggler="collapse" data-bs-target="#navbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        <div id="navbar1" class="collapse navbar-collapse">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">หน้าแรก</a>
+
+                </li>
+                <li class="nav-item">
+                    <a href="#service" class="nav-link">บริการ</a>
+
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">เกี่ยวกับเรา</a>
+
+                </li>
+            
+                <li class="nav-item">
+                    <a  class="nav-link" data-bs-toggle="modal" data-bs-target="#myModal">ติดต่องาน</a>
+
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!--การสร้างสไลเดอร์-->
+    <section id="slider">
+        <div class="carousel slide" data-bs-ride="carousel" id="mySlider">
+            <ol class="carousel-indicators">
+                <botton data-bs-target="#mySlider" data-bs-slide-to="0" class="active"></botton>
+                <botton data-bs-target="#mySlider" data-bs-slide-to="1" ></botton>
+                <botton data-bs-target="#mySlider" data-bs-slide-to="2" ></botton>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item carousel-image-1 active">
+                    <div class="container">
+                        <div class="carousel-caption d-none d-sm-block">
+                            <h1 class="display-3">ชมดอกไม้</h1>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item carousel-image-2">
+                    <div class="container">
+                        <div class="carousel-caption d-none d-sm-block">
+                            <h1 class="display-3">ยามเย็น</h1>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item carousel-image-3">
+                    <div class="container">
+                        <div class="carousel-caption d-none d-sm-block">
+                            <h1 class="display-3">ภูเขา</h1>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        </div>
+                    </div>
+                </div>
+               <button class="carousel-control-prev" data-bs-target="#mySlider" data-bs-slide="prev">
+                   <span class="carousel-control-prev-icon"></span>
+               </button>
+               <button class="carousel-control-next" data-bs-target="#mySlider" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+                        
+            </div>
+        </div>
+    </section>
+
+    <!--service section-->
+    <section id="service" class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 text-center mb-4">
+                    <i class="fas fa-user-tie fa-3x mb-2"></i>
+                    <h3>ไกด์นำเที่ยว</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div>
+                <div class="col-md-4 text-center mb-4">
+                    <i class="fas fa-camera-retro fa-3x mb-2"></i>
+                    <h3>รับถ่ายภาพ</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div>
+                <div class="col-md-4 text-center mb-4">
+                    <i class="far fa-images fa-3x mb-2"></i>
+                    <h3>ตกแต่งรูปภาพ</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div>
+               
+            </div>
+        </div>
+    </section>
+    <!--about-->
+    <section id="about" class="p-5">
+        <div class="dark-overlay">
+            <div class="row">
+                <div class="col">
+                    <div class="container pt-5">
+                        <h1>เกี่ยวกับเรา</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--gallary-->
+    <section id="gallry" class="p-5">
+        <div class="container">
+            <h1 class="text-center">ผลงานของเรา</h1>
+            <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            <div class="row mb-4">
+                <div class="col-md-4">
+                    <img src="https://cdn.pixabay.com/photo/2022/08/16/20/02/wallpaper-7391054__340.jpg" class="img-fluid">
+                </div>
+                <div class="col-md-4">
+                    <img src="https://cdn.pixabay.com/photo/2022/08/21/21/13/athens-7402123__340.jpg" class="img-fluid">
+                </div>
+                <div class="col-md-4">
+                    <img src="https://cdn.pixabay.com/photo/2022/07/30/14/35/sunflowers-7353922__340.jpg" class="img-fluid">
+                </div>
+            </div>
+            <div class="row mb-4">
+                <div class="col-md-4">
+                    <img src="https://cdn.pixabay.com/photo/2022/08/11/21/36/mont-saint-michel-7380315__340.jpg" class="img-fluid">
+                </div>
+                <div class="col-md-4">
+                    <img src="https://cdn.pixabay.com/photo/2022/05/22/16/50/outdoors-7213961__340.jpg" class="img-fluid">
+                </div>
+                <div class="col-md-4">
+                    <img src="https://cdn.pixabay.com/photo/2022/07/27/12/39/wheat-7347847__340.jpg" class="img-fluid">
+                </div>
+            </div>
+            <div class="row mb-4">
+                <div class="col-md-4">
+                    <img src="https://cdn.pixabay.com/photo/2022/07/15/20/13/strawberries-7323943__340.jpg" class="img-fluid">
+                </div>
+                <div class="col-md-4">
+                    <img src="https://cdn.pixabay.com/photo/2022/03/13/09/21/couple-7065645__340.jpg" class="img-fluid">
+                </div>
+                <div class="col-md-4">
+                    <img src="https://cdn.pixabay.com/photo/2022/05/08/10/13/animal-7181776__340.jpg" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--footer-->
+    <footer class="text-center p-4">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <p>Copyright &copy; GuideNumTieow official 2022</p>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+
+    <!--Modal-->
+    <div class="modal fade" id="myModal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">ติดต่องาน</h5>
+                    <botton class="btn-close" data-bs-dismiss="modal"></botton>
+                </div>
+                <div class="modal-body">
+                    <form >
+                        <div class="form-group">
+                            <lebel>อีเมล</lebel>
+                            <input type="email" placeholder="ป้อนอีเมลของคุณ" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <lebel>หัวข้อ</lebel>
+                            <input type="email" placeholder="เสนอหัวข้องานของคุณ" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <lebel>รายละเอียดของงาน</lebel>
+                           <textarea id="" cols="30" row="10" class="form-control"></textarea>
+                        </div>
+                    </form>
+                </div>
+                <div class="madal-footer">
+                    <botton class="btn btn-secondary" data-bs-dismiss="modal">ยกเลิก</botton>
+                    <botton class="btn btn-success">ส่งข้อมูล</botton>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

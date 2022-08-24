@@ -1,0 +1,36 @@
+*{
+    font-family: 'Mali', cursive;
+}
+.carousel-item{
+    height: 500px;
+}
+.carousel-image-1{
+    background-image: url("image/bellflowers-7298762_960_720.webp");
+    background-size: cover;
+}
+.carousel-image-2{
+    background-image: url("image/shilouette-7347044__340.webp");
+    background-size: cover;
+}
+.carousel-image-3{
+    background-image: url("image/mountains-7313638__340.webp");
+    background-size: cover;
+}
+#about{
+    min-height: 200px;
+    position: relative;
+    background-image: url(image/couple-g517a6dd5a_1920.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    color:azure;
+    background-attachment: fixed;
+}
+.dark-overlay{
+    position: absolute;
+    top:0; 
+    left: 0;
+    background-color: black;
+    width: 100%;
+    height: 100%;
+}
